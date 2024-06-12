@@ -46,16 +46,41 @@ ul{
 }
 
 
-   
+mark{
+    border-radius: 30px;
+    font-size: small;
+    color: white;
+    font-style:touilette;
+}
 
 
 .bmarker{
-   
-    border-radius: 30px;
-    font-size: small;
+    
     background-color: rgb(85, 154, 206);
-    color: white;
 }
+
+.pmarker{
+    background-color: rgb(148, 31, 134);
+}
+
+.gmarker{
+    background-color: rgb(12, 134, 21); 
+}
+  
+    
+.omarker{
+   
+    background-color: rgb(231, 118, 12);
+}
+
+.pimarker{
+    background-color: rgb(217, 41, 91);
+}
+
+.lgmarker{
+    background-color: lightgreen
+}
+
 
 .conteiner{
     border-radius: 20px;
