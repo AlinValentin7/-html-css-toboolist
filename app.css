@@ -4,6 +4,7 @@
  padding: 0;
     background-color: lightgray;
 }
+/*intestazione della pagina*/
 
 .header-page{
    background-color: white;
@@ -14,10 +15,13 @@
     width: 100px;
 }
 
+/*container*/
+
 .bg-white{
 background-color: white;
 
 }
+
 
 .main-content{
     padding: 15px;
@@ -25,4 +29,60 @@ background-color: white;
     max-width: 400px;
 }
 
+.newtask{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.firsttask{
+    padding-left: 0rem !important;
+}
+
+
+
+ul{
+    list-style: none;
+    
+}
+
+
+   
+
+
+.bmarker{
+   
+    border-radius: 30px;
+    font-size: small;
+    background-color: rgb(85, 154, 206);
+    color: white;
+}
+
+.conteiner{
+    border-radius: 20px;
+}
+
+ .conteiner,.newtask,.firsttask{
+
+  background-color: white;
+  padding: 15px;
+
+  
+  
+ 
+ 
+ }
+/*todolist*/
+
+.firstlist{
+    display:block;
+}
+
+*ul li{
+    list-style: none;
+}
+
+*mark{
+    border-style: solid;
+    border-radius: 20px;
+ }
 
