@@ -26,31 +26,42 @@ background-color: white;
 .main-content{
     padding: 15px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: fit-content;
 }
 
-.newtask{
+.title{
     font-size: 20px;
     font-weight: bold;
 }
 
-.firsttask{
-    padding-left: 0rem !important;
+.task,.notask{
+    padding-left: 0rem ;
+    padding-bottom: 0.4rem ;
+    padding-top: 0.4rem; 
 }
-
 
 
 ul{
     list-style: none;
-    
+}
+
+.title:before {
+    content:  ' \2207';
+   font-size: 0.8rem;
+   text-align: center;
 }
 
 
+
+
+
 mark{
-    border-radius: 30px;
-    font-size: small;
+    border-radius: 15px;
+    font-size: x-small;
     color: white;
-    font-style:touilette;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4px;
+    border-style: solid;
 }
 
 
@@ -84,30 +95,37 @@ mark{
 
 .conteiner{
     border-radius: 20px;
+    padding: 15px;
 }
 
- .conteiner,.newtask,.firsttask{
+ .conteiner,.title,.task,.notask{
 
   background-color: white;
-  padding: 15px;
-
   
-  
- 
  
  }
 /*todolist*/
 
-.firstlist{
+.list{
     display:block;
+    padding-top: 1rem;
+    background-color: white;
 }
 
-*ul li{
-    list-style: none;
+
+.task:before{
+    content: ' \2611';
+    
+
 }
 
-*mark{
-    border-style: solid;
-    border-radius: 20px;
- }
+.notask:before{
+    content: ' \2297'
+   
+}
+
+    
+
+
+
 
