@@ -34,7 +34,7 @@ background-color: white;
     font-weight: bold;
 }
 
-.task,.notask{
+.task{
     padding-left: 0rem ;
     padding-bottom: 0.4rem ;
     padding-top: 0.4rem; 
@@ -112,16 +112,15 @@ mark{
     background-color: white;
 }
 
-
-.task:before{
-    content: ' \2611';
-    
+.check{
+    background-color: white;
+    color:green;
 
 }
+.nocheck{
+    background-color: white;
+    color:red;
 
-.notask:before{
-    content: ' \2297'
-   
 }
 
     
